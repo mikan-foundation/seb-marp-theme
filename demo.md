@@ -15,6 +15,8 @@ paginate: true
 ### 作成： Sapporo Engineer Base 運営事務局
 #### 管理： SEBコーディネーター 西村航 （@\_n13u_）
 
+Hello, World!
+
 ---
 
 # Hello
@@ -23,3 +25,12 @@ paginate: true
 Hola!
 Bonjour!
 
+---
+
+<!-- _class: center -->
+
+# Hello
+
+こんにちは！
+Hola!
+Bonjour!
