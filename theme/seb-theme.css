@@ -1,0 +1,43 @@
+/* @theme seb-theme */
+@import "default";
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+section {
+  --color-theme-main: #1882e3;
+  --color-theme-sub: #073967;
+  --color-theme-contrast: #ffffff;
+  --font-family-theme: "Barlow Condensed", "sans-serif";
+}
+
+section {
+  background-color: var(--color-theme-contrast);
+  color: var(--color-theme-main);
+  padding: 60px;
+  font-family: var(--font-family-theme);
+}
+
+section::after {
+  font-weight: bold;  
+  font-size: 18px;
+  content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+}
+
+section h1 {
+  color: var(--color-theme-main);
+  margin-bottom: 0.5em;
+}
+
+section h2, h3, h4, h5, h6 {
+  color: var(--color-theme-sub);
+  margin-top: 0em;
+}
+
+section p {
+
+  color: var(--color-theme-sub);
+}
+
+section.cover {
+  background-color: var(--color-theme-main);
+  color: var(--color-theme-contrast)
+}
