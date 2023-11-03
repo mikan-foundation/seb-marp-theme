@@ -4,9 +4,17 @@
 
 section {
   --color-theme-main: #1882e3;
-  --color-theme-sub: #073967;
+  --color-theme-secondary: #073967;
+  --color-theme-gray: #707d88;
   --color-theme-contrast: #ffffff;
   --font-family-theme: "Barlow Condensed", "sans-serif";
+}
+
+section.cover {
+  --color-theme-main: #ffffff;
+  --color-theme-secondary: #ddeeff; 
+  --color-theme-gray: #eff7ff;
+  --color-theme-contrast: #1882e3;
 }
 
 section {
@@ -22,22 +30,21 @@ section::after {
   content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
 }
 
+section header,footer {
+  color: var(--color-theme-gray);
+}
+
 section h1 {
   color: var(--color-theme-main);
   margin-bottom: 0.5em;
 }
 
 section h2, h3, h4, h5, h6 {
-  color: var(--color-theme-sub);
+  color: var(--color-theme-secondary);
   margin-top: 0em;
 }
 
 section p {
 
-  color: var(--color-theme-sub);
-}
-
-section.cover {
-  background-color: var(--color-theme-main);
-  color: var(--color-theme-contrast)
+  color: var(--color-theme-secondary);
 }

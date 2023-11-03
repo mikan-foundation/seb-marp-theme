@@ -7,6 +7,7 @@ paginate: true
 ---
 
 <!-- _paginate: skip -->
+<!-- _class: cover -->
 
 
 # Marp Theme for Sapporo Engineer Base
